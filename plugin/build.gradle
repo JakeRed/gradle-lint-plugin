@@ -7,7 +7,7 @@ dependencies {
     // groovy sdk
     compile localGroovy()
     // 可以引用其它库
-    compile fileTree(dir: 'libs'2 include: ['*.jar'])
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 uploadArchives {
